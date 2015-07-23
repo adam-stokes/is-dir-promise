@@ -1,0 +1,33 @@
+{
+  "name": "is-dir-promise",
+  "version": "1.0.0",
+  "description": "Promise version is-dir",
+  "license": "MIT",
+  "repository": "battlemidget/is-dir-promise",
+  "author": {
+    "name": "Adam Stokes",
+    "email": "adam.stokes@ubuntu.com",
+    "url": "astokes.org"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "is-dir",
+    "promise"
+  ],
+  "dependencies": {
+    "is-dir": "^1.0.0",
+    "native-or-bluebird": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^7.0.2"
+  }
+}
