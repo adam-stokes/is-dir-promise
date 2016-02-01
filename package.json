@@ -1,6 +1,6 @@
 {
   "name": "is-dir-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise version is-dir",
   "license": "MIT",
   "repository": "battlemidget/is-dir-promise",
@@ -10,7 +10,7 @@
     "url": "astokes.org"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "mocha"
@@ -23,8 +23,7 @@
     "promise"
   ],
   "dependencies": {
-    "is-dir": "^1.0.0",
-    "native-or-bluebird": "^1.2.0"
+    "is-dir": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "*",
